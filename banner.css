@@ -1,0 +1,140 @@
+#navbar{
+    height: 60px;
+    background-color:black
+}
+button{
+    background-color: rgb(167, 167, 83);
+}
+button:hover{
+    background-color: bisque;
+}
+#logo{
+    background-color: rgb(208, 77, 83);
+    font-size: large;
+}
+#logo:hover{
+background-color: lightcoral;
+}
+a{
+    margin-right: 50px;
+    text-decoration: none;
+
+}  
+.dashboard-container {
+            max-width: 1200px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .main-dashboard {
+            background: linear-gradient(135deg, #4a90b8, #6ba3c7);
+            border: 4px solid #000;
+            border-radius: 15px;
+            padding: 40px;
+            position: relative;
+            min-height: 500px;
+        }
+
+        .dashboard-title {
+            text-align: center;
+            font-size: 2.5rem;
+            font-weight: bold;
+            color: #000;
+            margin-bottom: 40px;
+            text-shadow: 1px 1px 2px rgba(255,255,255,0.3);
+        }
+
+        .central-tools {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+            margin: 30px 0;
+        }
+
+        .tool-button {
+            padding: 15px 25px;
+            border: none;
+            border-radius: 8px;
+            font-size: 18px;
+            font-weight: bold;
+            color: white;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        .ibm-button {
+            background-color: #000;
+        }
+
+        .db2-button {
+            background-color: #4CAF50;
+        }
+
+        .tool-button:hover {
+            transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+        }
+
+        .arrow {
+            font-size: 3rem;
+            color: #000;
+             font-weight: bold; 
+            cursor: pointer;
+            transition: transform 0.3s ease;
+        } 
+
+         .arrow:hover {
+            transform: scale(1.2);
+        }  
+
+        .arrow-down-left {
+            position: absolute;
+            top: 180px;
+            left: 100px;
+            transform: rotate(-45deg);
+        }
+
+        .arrow-down-right {
+            position: absolute;
+            top: 180px;
+            right: 100px;
+            transform: rotate(45deg);
+        }
+
+         .arrow-right {
+            margin: 0 20px;
+        } 
+
+        .tool-cards {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 60px;
+            gap: 30px;
+        }
+
+        .tool-card {
+            flex: 1;
+            background: rgba(255,255,255,0.1);
+            border-radius: 15px;
+            padding: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            border: 2px solid transparent;
+            backdrop-filter: blur(5px);
+        }
+
+        .tool-card h3 {
+            color: #000;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            font-weight: bold;
+        }
+
+        .tool-card p {
+            color: #333;
+            line-height: 1.6;
+            font-size: 14px;
+        }
